@@ -1,13 +1,13 @@
-﻿using System;
+﻿using ProjectFlow.Core.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ProjectFlow.Core.Models;
 
 namespace ProjectFlow.Core.Interfaces
 {
-    public interface IRepository<T> where T : Project
+    public interface IService<T> where T : Project
     {
         /// <summary>
         /// Retrieves all entities of type T from the data store.

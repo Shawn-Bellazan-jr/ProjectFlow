@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectFlow.Core
+namespace ProjectFlow.Data
 {
-    public abstract class Project
+    public class ProjectFlowDbContext
     {
-        public string Id { get; set; } = Guid.NewGuid().ToString();
     }
 }
